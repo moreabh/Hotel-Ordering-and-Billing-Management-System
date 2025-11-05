@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Menu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <h1>🍽 Hotel Menu</h1>
+    <nav>
+      <a href="cart.html">View Cart</a>
+      <a href="orders.html">Orders</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="menu-container" class="menu-container">
+      <!-- Menu items will load here dynamically -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+  <script>
+    // Load menu items when page loads
+    document.addEventListener('DOMContentLoaded', fetchMenu);
+  </script>
+</body>
+</html>
